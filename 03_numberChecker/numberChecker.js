@@ -1,5 +1,5 @@
-function numberChecker(number) {
-  if (number === 6) {
+const numberChecker = function(num) {
+  if (num >= 10) {
     return true;
   } else {
     return false;
